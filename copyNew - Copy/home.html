@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VJ pictures</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- nav-bar  -->
+  <section id="nav-bar" class="container">
+    <header class="nav-bar">
+      <div class="brand"><a href="#hero"><h1>VJ Pictures</h1></a></div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#Gallery">Porfolio</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+  </section>
+  <!-- End nav-bar  -->
+
+  <!-- Hero Section  -->
+  <section id="hero" class="hero container">
+    <div class="hero-info">
+      <h1 class="hero-info-heading">Royal Black <br>Designs</h1>
+      <p class="hero-info-subheading">create art and memories</p>
+      <a href="#services" type="button" class="hero-info-button">Show me more</a>
+    </div>
+    
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About section  -->
+  <section id="about" class="about container">
+    <div class="about-info">
+      <h1 class="about-info-heading">About Us</h1>
+      
+      <p class="about-info-desc">Visuals Journey SA  is a company
+        with a high rated reputation of maintaning 
+        their  standard of product on each and every project
+        big or small we guarantee the best of quality.
+        as a production of various media content VJ pictures SA  is here 
+        to assure you that it's the best amongst the rest.
+        Visuals Journey's aim is to bring the freshest products to it's clients
+         very passionate and very experinced team of individuals 
+        to ensure the standard of best quality</p>
+      
+    </div>
+    <div class="about-img">
+      <div class="about-img-wrapper">
+        <img src="./darkcam.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End About section  -->
+
+  <!-- Service Section  -->
+  <section id="services" class="services container">
+    <div class="services-header">
+      <h1 class="services-header-heading">What we offer</h1>
+      <p class="services-header-desc">We capture high quality moments and improve them through editing so that you get the best possible quality. Royal Black Designs will design house plans for all types of homes, the goal is to help you get closer to your dream house.</p>
+    </div>
+    <div class="services-info">
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fas fa-camera"></i>
+            <h1 class="service-front-heading">Photography</h1>
+            <p class="service-message">Allow VJ Pictures to capture your memories</p>
+          </div>
+          <div class="service-back">
+            </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fas fas fa-video"></i>
+            <h1 class="service-front-heading">Videography</h1>
+            <p class="service-message">Allow VJ Pictures to capture your memories</p>
+          </div>
+          <div class="service-back">
+            
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fas fa-home"></i>
+            <h1 class="service-front-heading">House Plans</h1>
+            <p class="service-message">Redesign the house of your dreams</p>
+            
+          </div>
+          <div class="service-back">
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section  -->
+  <!-- Gallery section  -->
+  <section id="Gallery" class="portfolio">
+    <div class="services-header">
+      <h1 class="services-header-heading">Portfolio</h1>
+      <p class="services-header-desc">Take a look at some of our recent works.</p>
+    </div>
+   
+        
+      
+      <img class="half-page-image" src="./images/IMG_9511.jpg">
+    
+      <img class="half-page-image" src="./images/IMG_9514.jpg">
+      <img class="half-page-image" src="./images/IMG_9626.jpg">
+    
+      <img class="half-page-image" src="./images/IMG_9576.jpg">
+      <img class="half-page-image" src="./images/IMG_9625.jpg">
+      <img class="half-page-image" src="./images/IMG_9626.jpg">
+      
+      
+  </section>
+  
+
+  <!-- contact section-->
+  <section>
+    
+  </section>
+
+  <!-- Footer section  -->
+  <footer id="footer" class="footer container">
+    <div class="footer-contact">
+      <h1 class="footer-contact-heading">Contact With Me</h1>
+      <a class="footer-contact-info" href="mailto:Royalblackmoses@gmail.com">Royalblackmoses@gmail.com</a>
+      <p class="footer-contact-info">Mobile: 0621842184</p>
+    </div>
+    <div class="footer-social-follow">
+      <h1 class="footer-social-follow-heading">Follow Me</h1>
+      <div class="footer-social-icon">
+        <a href="https://m.facebook.com/profile.php?id=100008188183202&tsid=0.8646827640156205&source=result"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/royalblackmoses/"><i class="fab fa-instagram-square"></i></a>
+        
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer section  -->
+  <script src="./app.js"></script>
+  <script>
+    window.addEventListener('scroll', function () {
+        let header = document.querySelector('section .nav-bar ');
+        let windowPosition = window.scrollY > 0;
+        header.classList.toggle('scrolling-active', windowPosition);
+    })
+
+    
+</script>
+
+
+</body>
+</html>
